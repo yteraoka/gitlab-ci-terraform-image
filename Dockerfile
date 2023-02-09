@@ -12,7 +12,7 @@ RUN apt-get update \
  && unzip /tmp/awscliv2.zip \
  && ./aws/install \
  && rm -fr ./aws /tmp/awscliv2.zip \
- && git clone --depth 1 https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2 \
+ && git clone --depth 1 https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1 \
  && echo "source ~/.asdf/asdf.sh" >> ~/.bashrc \
  && source ~/.asdf/asdf.sh \
  && asdf plugin add terraform \
