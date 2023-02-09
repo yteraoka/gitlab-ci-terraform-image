@@ -20,7 +20,7 @@ RUN apt-get update \
  && curl -Lo /tmp/tfcmt-gitlab.tar.gz https://github.com/hirosassa/tfcmt-gitlab/releases/download/v0.1.4/tfcmt-gitlab_linux_amd64.tar.gz \
  && tar -C /usr/local/bin -xf /tmp/tfcmt-gitlab.tar.gz tfcmt-gitlab \
  && rm /tmp/tfcmt-gitlab.tar.gz \
- && curl -Lo /tmp/tflint_linux_amd64.zip https://github.com/terraform-linters/tflint/releases/download/v0.41.0/tflint_linux_amd64.zip \
+ && curl -Lo /tmp/tflint_linux_amd64.zip https://github.com/terraform-linters/tflint/releases/download/v0.44.1/tflint_linux_amd64.zip \
  && unzip /tmp/tflint_linux_amd64.zip tflint -d /usr/bin \
  && chmod 0755 /usr/bin/tflint \
  && rm /tmp/tflint_linux_amd64.zip
