@@ -1,4 +1,4 @@
-FROM debian:bullseye-20230109-slim
+FROM debian:11.6-slim
 
 # pipefail を指定可能にする
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
