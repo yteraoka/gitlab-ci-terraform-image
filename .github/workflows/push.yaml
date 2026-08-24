@@ -14,7 +14,7 @@ jobs:
 
       - name: Docker meta for GHCR
         id: meta-ghcr
-        uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051 # v5.10.0
+        uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
         with:
           images: ghcr.io/yteraoka/gitlab-ci-terraform-image
           tags: |
@@ -24,7 +24,7 @@ jobs:
 
       - name: Docker meta for DockerHub
         id: meta-dockerhub
-        uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051 # v5.10.0
+        uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
         with:
           images: docker.io/yteraoka/gitlab-ci-terraform-image
           tags: |
